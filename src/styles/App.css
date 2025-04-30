@@ -1,0 +1,155 @@
+/* Reset básico do corpo da página */
+body {
+  background-color: #f0f4f7; /* Cor de fundo suave, azul claro */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte legível */
+  color: #455a64; /* Cor do texto: cinza azulado escuro */
+}
+
+/* Estilo do título principal (h1) */
+h1 {
+  font-weight: 700; /* Negrito */
+  color: #607d8b; /* Cinza azulado */
+  text-shadow: 1px 1px 2px rgba(96, 125, 139, 0.3); /* Sombra suave no texto */
+}
+
+/* Estilo dos títulos das tabelas (h2) */
+h2 {
+  font-size: 1.8rem; /* Tamanho maior */
+  font-weight: 700; /* Negrito */
+  color: #37474f; /* Cinza escuro */
+  border-bottom: 3px solid #607d8b; /* Linha cinza azulado embaixo */
+  padding-bottom: 6px; /* Espaço interno abaixo do texto */
+  margin-bottom: 1rem; /* Espaço externo abaixo do título */
+}
+
+/* Botão "Nova Tarefa" */
+button.btn-primary {
+  background-color: #607d8b; /* Cor cinza azulado */
+  border: none; /* Sem borda */
+  font-weight: 600; /* Negrito médio */
+  box-shadow: 0 4px 8px rgba(96, 125, 139, 0.2); /* Sombra para dar profundidade */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+}
+button.btn-primary:hover {
+  background-color: #4a6572; /* Cor mais escura ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(74, 101, 114, 0.3); /* Sombra maior no hover */
+}
+
+/* Estilo das tabelas */
+table {
+  background-color: #ffffff; /* Fundo branco */
+  border-radius: 8px; /* Cantos arredondados */
+  overflow: hidden; /* Evita que conteúdo ultrapasse bordas */
+  box-shadow: 0 2px 6px rgba(69, 90, 100, 0.1); /* Sombra leve para destacar */
+}
+
+/* Cabeçalho da tabela */
+table thead {
+  background-color: #90a4ae; /* Cinza azulado claro */
+  color: #263238; /* Texto cinza escuro para contraste */
+}
+table thead th {
+  font-weight: 600; /* Negrito */
+  text-align: center; /* Centraliza texto */
+}
+
+/* Linha da tabela ao passar o mouse */
+table tbody tr:hover {
+  background-color: #e1e8eb; /* Fundo azul claro suave */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Centraliza colunas específicas */
+table tbody td.text-center {
+  text-align: center;
+}
+
+/* Botão Editar */
+button.btn-warning {
+  background-color: #2196f3; /* Azul vivo */
+  border: none;
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+button.btn-warning:hover {
+  background-color: #1976d2; /* Azul mais escuro no hover */
+  color: white;
+}
+
+/* Botão Excluir */
+button.btn-danger {
+  background-color: #e53935; /* Vermelho vivo */
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+button.btn-danger:hover {
+  background-color: #b71c1c; /* Vermelho escuro no hover */
+  color: white;
+}
+
+/* Estilo dos modais */
+.modal-content {
+  border-radius: 12px; /* Cantos arredondados */
+  box-shadow: 0 8px 24px rgba(96, 125, 139, 0.3); /* Sombra mais forte */
+}
+.modal-header {
+  background-color: #607d8b; /* Cinza azulado */
+  color: white;
+  border-bottom: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.modal-footer {
+  border-top: none;
+}
+
+/* Estilo dos alertas (mensagens de feedback) */
+.alert {
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(69, 90, 100, 0.1);
+}
+
+/* Estilo dos inputs e selects dos formulários */
+form input[type="text"],
+form textarea,
+form select,
+form .form-control {
+  border-radius: 6px;
+  border: 1px solid #b0bec5; /* Borda cinza clara */
+  padding: 10px;
+  transition: border-color 0.3s ease;
+  background-color: #f5f7fa; /* Fundo claro */
+  color: #455a64; /* Texto cinza azulado */
+}
+form input[type="text"]:focus,
+form textarea:focus,
+form select:focus,
+form .form-control:focus {
+  border-color: #607d8b; /* Borda azul ao focar */
+  box-shadow: 0 0 5px rgba(96, 125, 139, 0.5);
+  outline: none;
+  background-color: #ffffff; /* Fundo branco ao focar */
+}
+
+/* Botão de submit do formulário */
+form button[type="submit"] {
+  background-color: #28a745; /* Verde vivo */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button[type="submit"]:hover {
+  background-color: #1e7e34; /* Verde escuro no hover */
+}
+
+/* Margem superior para mensagens de feedback */
+.mt-3 {
+  margin-top: 1rem !important;
+}
