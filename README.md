@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# 🚀 SAFE TASK - O Gerenciador de Tarefas Mais Épico 🌌
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**"Organize sua vida com estilo usando o SAFE TASK!"**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👥 A Dupla Dinâmica
 
-### `npm start`
+| Integrante   | GitHub           |
+|--------------|------------------|
+| Felipe       | feliperottner    |
+| Sabrina | SabrinaDeveloper |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 Sobre o Projeto
 
-### `npm test`
+**SAFE TASK** é mais do que um gerenciador de tarefas: é uma jornada de produtividade com toque místico e muito carisma!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💡 Por que usar o SAFE TASK?
 
-### `npm run build`
+- ✨ **CRUD completo com estilo**
+- ✅ Marcação de tarefas concluídas com feedback visual
+- 🚨 Priorização de tarefas para manter o foco
+- 🧠 Categorização intuitiva pra você nunca mais se perder
+- 📱 Layout responsivo
+- 🌈 Interface estilizada com Bootstrap
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌐 Deploy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Acesse agora (sem instalar nada):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🔗 [safe-task.vercel.app](https://safe-task.vercel.app)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Tecnologias Utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ⚛️ **React.js**
+- 🎨 **Bootstrap**
+- 💾 **LocalStorage** 
+- ☁️ **Vercel**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎯 Funcionalidades
 
-## Learn More
+```javascript
+const features = [
+  "✅ Criar tarefas com facilidade",
+  "✏️ Editar tarefas",
+  "🗑️ Excluir tarefas",
+  "🏁 Marcar como concluído com orgulho",
+  "📂 Filtrar por categoria e prioridade",
+  "🌟 Feedback visual pra deixar tudo mais bonito",
+];
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧑‍💻 Como Rodar Localmente
 
-### Code Splitting
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/safe-task.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+3. **Inicie o app**
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. **Acesse no navegador**
+   ```
+   http://localhost:3000
+   ```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🖼️ Screenshots
 
-### Advanced Configuration
+- ✔️ **Dashboard principal** – Seu novo QG da produtividade  
+- 🔧 **Modal de edição** – Visual limpo e funcional  
+- 💣 **Confirmação de exclusão** – Porque a dúvida é real  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📜 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Distribuído sob a licença **MIT**.  
+Traduzindo: Use, modifique e compartilhe à vontade — só não nos culpe se suas tarefas continuarem acumulando 😅
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ e um toque de insanidade produtiva pela dupla mais épica desde Batman e Robin!
